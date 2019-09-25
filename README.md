@@ -16,7 +16,7 @@
 
 ![](2019-09-24_school-diversity/Diverse2016-2017.png)
 ![](2019-09-24_school-diversity/Undiverse2016-2017.png)
-![](2019-09-24_school-diversity/Extremely_undiverse2016-2017.png)
+![](2019-09-24_school-diversity/Extremely-undiverse2016-2017.png)
 
 **Data**: introduction of #TidyTuesday school diversity data [here](https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-09-24)
 

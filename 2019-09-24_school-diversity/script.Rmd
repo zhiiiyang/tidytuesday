@@ -66,8 +66,8 @@ for (group in c("Diverse", "Undiverse", "Extremely undiverse")) {
         values = c("#e31b1b", "#347fb8", "#4bb04a",  
                    "#fd9069", '#f781bd', '#b2b5bc')
         ) +
-      ggtitle(paste0("Population Distribution by Race/Ethnicity\namong ", 
-                  group, " School Districts\nduring ", year)) +
+      ggtitle(paste0("Population distribution by race/ethnicity\namong ", 
+                  group, " school districts\nduring ", year)) +
       coord_equal() +
       facet_geo(~ST) +
       theme_void()+
@@ -86,7 +86,8 @@ for (group in c("Diverse", "Undiverse", "Extremely undiverse")) {
         plot.background = element_rect(fill = '#F3F7F7'),
         plot.margin = unit(c(1.5, 1.5, 1.5, 1.5), 'cm')
       )
-    ggsave(paste0(group,year,".png"), width = 10, height = 8, dpi = 300, type = "cairo")
+    ggsave(paste0(here::here(), "/2019-09-24_school-diversity/",group, year,".png"), 
+           width = 10, height = 8, dpi = 300, type = "cairo")
 
     }
 }
