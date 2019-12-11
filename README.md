@@ -1,8 +1,8 @@
 # My #dataviz projects [website](https://zhiyang.netlify.com/project/viz/)
 
 - [How to make an interactive treemap using `treemap` and `d3treeR`](https://github.com/zhiiiyang/tidytuesday#how-to-make-an-interactive-treemap-using-treemap-and-d3treer)
-- [How to make an geofacet waffle chat using geofacet](https://github.com/zhiiiyang/tidytuesday#how-to-make-an-geofacet-waffle-chat-using-geofacet)
-- [How to make a colored map using geofacet]()
+- [How to make an geofacet waffle chat using `geofacet`](https://github.com/zhiiiyang/tidytuesday#how-to-make-an-geofacet-waffle-chat-using-geofacet)
+- [How to make a map using `geofacet`](https://github.com/zhiiiyang/tidytuesday#how-to-make-a-map-using-geofacet)
 
 ## How to make an interactive treemap using `treemap` and `d3treeR` 
 
@@ -32,5 +32,4 @@
 # How to make a map using `geofacet` 
 ![](https://zhiyang.netlify.com/post/gaokao/featured.png)
 ![](https://zhiyang.netlify.com/post/gaokao/p2.png)
-![](https://zhiyang.netlify.com/post/gaokao/p3.png)
 ![](https://zhiyang.netlify.com/post/gaokao/p3.png)
