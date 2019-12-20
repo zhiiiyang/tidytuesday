@@ -19,9 +19,11 @@
 
 ## How to make an geofacet waffle chat using `geofacet`  
 
-<img src="2019-09-24_school-diversity/Diverse2016-2017.png" width="400"/>
-<img src="2019-09-24_school-diversity/Undiverse2016-2017.png" width="400"/>
-<img src="2019-09-24_school-diversity/Extremely-undiverse2016-2017.png" width="400"/>
+<p align="center">
+  <img src="2019-09-24_school-diversity/Diverse2016-2017.png" width="600">
+  <img src="2019-09-24_school-diversity/Undiverse2016-2017.png" width="600"/>
+  <img src="2019-09-24_school-diversity/Extremely-undiverse2016-2017.png" width="600"/>
+<p>
 
 
 **Data**: introduction of #TidyTuesday school diversity data [here](https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-09-24)
@@ -31,7 +33,8 @@
 **Note**: go to [andriy-gazin/geowaffle](https://github.com/andriy-gazin/geowaffle) to see the original post
 
 # How to make a map using `geofacet` 
-<img src="https://zhiyang.netlify.com/post/gaokao/featured.png" width="400"/>
-<img src="https://zhiyang.netlify.com/post/gaokao/p2.png" width="400"/>
-<img src="https://zhiyang.netlify.com/post/gaokao/p3.png" width="400"/>
-
+<p align="center">
+  <img src="https://zhiyang.netlify.com/post/gaokao/featured.png" width="400"/>
+  <img src="https://zhiyang.netlify.com/post/gaokao/p2.png" width="400"/>
+  <img src="https://zhiyang.netlify.com/post/gaokao/p3.png" width="400"/>
+<p>
