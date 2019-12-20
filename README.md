@@ -34,7 +34,7 @@
 
 # How to make a map using `geofacet` 
 <p align="center">
-  <img src="https://zhiyang.netlify.com/post/gaokao/featured.png" width="400"/>
-  <img src="https://zhiyang.netlify.com/post/gaokao/p2.png" width="400"/>
-  <img src="https://zhiyang.netlify.com/post/gaokao/p3.png" width="400"/>
+  <img src="https://zhiyang.netlify.com/post/gaokao/featured.png" width="600"/>
+  <img src="https://zhiyang.netlify.com/post/gaokao/p2.png" width="600"/>
+  <img src="https://zhiyang.netlify.com/post/gaokao/p3.png" width="600"/>
 <p>
