@@ -49,6 +49,6 @@
 # How to make a heatmap of your Twitter activity
 
 <p align="center">
-  <img src="2019-12-20_heatmap/index_files/figure-html/unnamed-chunk-6-1.png" width="600"/>
+  <img src="2019-12-20_heatmap/README_files/figure-html/unnamed-chunk-6-1.png" width="600"/>
 <p>
 

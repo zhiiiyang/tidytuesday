@@ -1,5 +1,5 @@
 ---
-title: "README"
+title: "How to make an animated picture using `gganimate`"
 author: "Zhi Yang"
 date: "12/20/2019"
 output: 
