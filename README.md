@@ -3,8 +3,8 @@
 - [How to make an interactive treemap using `treemap` and `d3treeR`](https://github.com/zhiiiyang/tidytuesday#how-to-make-an-interactive-treemap-using-treemap-and-d3treer)
 - [How to make an geofacet waffle chat using `geofacet`](https://github.com/zhiiiyang/tidytuesday#how-to-make-an-geofacet-waffle-chat-using-geofacet)
 - [How to make a map using `geofacet`](https://github.com/zhiiiyang/tidytuesday#how-to-make-a-map-using-geofacet)
-- [How to make an animated picture using `gganimate`]()
-- [How to make a heatmap of your Twitter activity]()
+- [How to make an animated picture using `gganimate`](https://github.com/zhiiiyang/tidytuesday/blob/master/README.md#how-to-make-an-animated-picture-using-gganimate)
+- [How to make a heatmap of your Twitter activity](https://github.com/zhiiiyang/tidytuesday/blob/master/README.md#how-to-make-a-heatmap-of-your-twitter-activity)
 
 ## How to make an interactive treemap using `treemap` and `d3treeR` 
 
