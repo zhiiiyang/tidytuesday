@@ -1,0 +1,59 @@
+---
+title: "Heatmap for My Twitter Activity Tracking"
+author: "Zhi Yang"
+date: "12/20/2019"
+output: 
+  html_document:
+    keep_md: true
+---
+  
+```{r}
+library(rtweet)
+library(lubridate)
+library(dplyr)
+source("https://raw.githubusercontent.com/iascchen/VisHealth/master/R/calendarHeat.R")
+```
+
+
+```{r eval=FALSE}
+token <- create_token(
+  app = "xxx",
+  consumer_key = "xxx",
+  consumer_secret = "xxx")
+```
+
+
+## Get my timeline
+```{r}
+targeted_user <- "zhiiiyang"
+tweet_list <- get_timeline(targeted_user,n = 3000)
+```
+
+## Explore the tweets list 
+```{r}
+head(tweet_list)
+```
+
+#### retweet lists
+```{r message=FALSE, warning=FALSE}
+tweet_list <- tweet_list %>% 
+  mutate(week = week(created_at),
+         weekday = wday(created_at, label = TRUE),
+         year = year(created_at), 
+         month = month(created_at, label = TRUE),
+         date = date(created_at)) %>% 
+  group_by(year, month) %>% 
+  mutate(monthweek = week - min(week) + 1) %>% 
+  group_by(date) %>% 
+  mutate(activity = n(),
+         original = if_else(is.na(reply_to_status_id)==TRUE &
+                              is_retweet==FALSE, TRUE, FALSE),
+         likes = sum(favorite_count[original==TRUE]),
+         retweets = sum(retweet_count[original==TRUE]))
+```
+
+
+```{r message=FALSE, warning=FALSE}
+calendarHeat(tweet_list$date, tweet_list$activity, 
+             ncolors = 99, color = "g2r", varname="My Tweets & Replies Activitiy")
+```
