@@ -41,14 +41,14 @@
   <img src="https://zhiyang.netlify.com/post/gaokao/p3.png" width="600"/>
 <p>
 
-#How to make an animated picture using `gganimate`
+# How to make an animated picture using `gganimate`
 <p align="center">
-  <img src="https://github.com/zhiiiyang/tidytuesday/tree/master/2019-10-08_lifting/weights.gif" width="600"/>
+  <img src="2019-10-08_lifting/weights.gif" width="600"/>
 <p>
 
-#How to make a heatmap of your Twitter activity
+# How to make a heatmap of your Twitter activity
 
 <p align="center">
-  <img src="https://github.com/zhiiiyang/tidytuesday/tree/master/2019-10-08_lifting/weights.gif" width="600"/>
+  <img src="2019-12-20_heatmap/index_files/figure-html/unnamed-chunk-6-1.png" width="600"/>
 <p>
 
