@@ -2,22 +2,42 @@
 title: "Data visualization of School Diversity"
 author: "Zhi Yang"
 date: "9/23/2019"
-output: html_document
+output: 
+  html_document:
+    keep_md: true
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-library(ggplot2)
-library(geofacet)
-library(tidyverse)
-```
 
-```{r}
+
+
+```r
 df <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-09-24/school_diversity.csv")
 ```
 
+```
+## Parsed with column specification:
+## cols(
+##   LEAID = col_character(),
+##   LEA_NAME = col_character(),
+##   ST = col_character(),
+##   d_Locale_Txt = col_character(),
+##   SCHOOL_YEAR = col_character(),
+##   AIAN = col_double(),
+##   Asian = col_double(),
+##   Black = col_double(),
+##   Hispanic = col_double(),
+##   White = col_double(),
+##   Multi = col_double(),
+##   Total = col_double(),
+##   diverse = col_character(),
+##   variance = col_double(),
+##   int_group = col_character()
+## )
+```
 
-```{r}
+
+
+```r
 df$Multi[is.na(df$Multi)] <- 0
 
 round_preserve_sum <- function(vec) {
@@ -32,7 +52,8 @@ round_preserve_sum <- function(vec) {
 ```
 
 
-```{r}
+
+```r
 for (group in c("Diverse", "Undiverse", "Extremely undiverse")) {
   for (year in c("1994-1995", "2016-2017")) {
     df2 <- df %>% mutate(Others = AIAN+Asian+Multi) %>%
@@ -91,5 +112,13 @@ for (group in c("Diverse", "Undiverse", "Extremely undiverse")) {
 
     }
 }
+```
+
+```
+## Warning: Unknown levels in `f`: Multi
+
+## Warning: Unknown levels in `f`: Multi
+
+## Warning: Unknown levels in `f`: Multi
 ```
 

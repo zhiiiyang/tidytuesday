@@ -150,4 +150,4 @@ calendarHeat(tweet_list$date, tweet_list$activity,
              ncolors = 99, color = "g2r", varname="My Tweets & Replies Activitiy")
 ```
 
-![](index_files/figure-html/unnamed-chunk-6-1.png)<!-- -->
+![](README_files/figure-html/unnamed-chunk-6-1.png)<!-- -->

@@ -1,10 +1,31 @@
+---
+title: "README"
+author: "Zhi Yang"
+date: "12/20/2019"
+output: 
+  html_document:
+    keep_md: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
 library(ggplot2)
 library(gganimate)
 library(tidyverse)
 library(viridis)
+```
 
+## Read in data
+```{r}
 df <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-10-08/ipf_lifts.csv")
 
+```
+
+## Clean data
+```{r}
 df2 <- df %>% mutate(year = as.numeric(str_sub(date, 1, 4))) %>%
   select(year, sex, age, bodyweight_kg, best3squat_kg, best3bench_kg, best3deadlift_kg) %>%
   gather("type", "value", - year, - sex, - age, - bodyweight_kg) %>%
@@ -16,7 +37,10 @@ df2 <- df %>% mutate(year = as.numeric(str_sub(date, 1, 4))) %>%
                        "best3squat_kg"="Squat"),
          year = as.integer(year)) 
 
+```
 
+## Create data viz 
+```{r}
 ggplot(df2 %>% filter(value>0 & age > 0.5), 
        aes(x=bodyweight_kg, y=value, col = age) ) +
   geom_point() +
@@ -30,3 +54,6 @@ ggplot(df2 %>% filter(value>0 & age > 0.5),
        y = 'Maximum of the first three successful attempts for the lift in kg') +
   transition_time(year) +
   ease_aes('linear')
+
+```
+
