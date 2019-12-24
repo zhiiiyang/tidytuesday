@@ -4,8 +4,8 @@
 - [How to make an geofacet waffle chat using `geofacet`](https://github.com/zhiiiyang/tidytuesday#how-to-make-an-geofacet-waffle-chat-using-geofacet)
 - [How to make a map using `geofacet`](https://github.com/zhiiiyang/tidytuesday#how-to-make-a-map-using-geofacet)
 - [How to make an animated picture using `gganimate`](https://github.com/zhiiiyang/tidytuesday/blob/master/README.md#how-to-make-an-animated-picture-using-gganimate)
-- [How to make a heatmap of your Twitter activity](https://github.com/zhiiiyang/tidytuesday/blob/master/README.md#how-to-make-a-heatmap-of-your-twitter-activity)
-- [How to make a radar/spider plot of your Twitter activity](https://github.com/zhiiiyang/tidytuesday/blob/master/README.md#how-to-make-a-heatmap-of-your-twitter-activity)
+- [How to make a heatmap of your Twitter activity using `ggplot2`](https://github.com/zhiiiyang/tidytuesday/blob/master/README.md#how-to-make-a-heatmap-of-your-twitter-activity-using-ggplot2)
+- [How to make a radar/spider plot of your tweet frequency using `ggplot2`](https://github.com/zhiiiyang/tidytuesday#how-to-make-a-radarspider-plot-of-your-tweet-frequency-using-ggplot2)
 
 ## How to make an interactive treemap using `treemap` and `d3treeR` 
 
@@ -53,5 +53,9 @@
   <img src="2019-12-20_heatmap/README_files/figure-html/unnamed-chunk-6-1.png" width="600"/>
 <p>
 
-# How to make a radar/spider plot of your Twitter activity
+# How to make a radar/spider plot of your tweet frequency using `ggplot2`
+
+<p align="center">
+  <img src="2019-12-24_radarplot/README_files/figure-html/unnamed-chunk-6-1.png" width="600"/>
+<p>
 
