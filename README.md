@@ -47,11 +47,15 @@
   <img src="2019-10-08_lifting/weights.gif" width="600"/>
 <p>
 
+**Code**: click [here](https://github.com/zhiiiyang/tidytuesday/tree/master/2019-10-08_lifting)
+
 # How to make a heatmap of your Twitter activity
 
 <p align="center">
   <img src="2019-12-20_heatmap/README_files/figure-html/unnamed-chunk-6-1.png" width="600"/>
 <p>
+
+**Code**: click [here](https://github.com/zhiiiyang/tidytuesday/tree/master/2019-12-20_heatmap)
 
 # How to make a radar/spider plot of your tweet frequency using `ggplot2`
 
@@ -59,3 +63,5 @@
   <img src="2019-12-24_radarplot/README_files/figure-html/unnamed-chunk-6-1.png" width="600"/>
 <p>
 
+
+**Code**: click [here](https://github.com/zhiiiyang/tidytuesday/tree/master/2019-12-24_radarplot)
