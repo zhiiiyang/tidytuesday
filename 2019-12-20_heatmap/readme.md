@@ -10,48 +10,8 @@ output:
 
 ```r
 library(rtweet)
-library(lubridate)
-```
-
-```
-## 
-## Attaching package: 'lubridate'
-```
-
-```
-## The following object is masked from 'package:base':
-## 
-##     date
-```
-
-```r
-library(dplyr)
-```
-
-```
-## 
-## Attaching package: 'dplyr'
-```
-
-```
-## The following objects are masked from 'package:lubridate':
-## 
-##     intersect, setdiff, union
-```
-
-```
-## The following objects are masked from 'package:stats':
-## 
-##     filter, lag
-```
-
-```
-## The following objects are masked from 'package:base':
-## 
-##     intersect, setdiff, setequal, union
-```
-
-```r
+suppressMessages(library(lubridate))
+suppressMessages(library(dplyr))
 source("https://raw.githubusercontent.com/iascchen/VisHealth/master/R/calendarHeat.R")
 ```
 
@@ -82,12 +42,12 @@ head(tweet_list)
 ## # A tibble: 6 x 90
 ##   user_id status_id created_at          screen_name text  source
 ##   <chr>   <chr>     <dttm>              <chr>       <chr> <chr> 
-## 1 345609~ 12080702~ 2019-12-20 17:02:56 zhiiiyang   @R_b~ Twitt~
-## 2 345609~ 12075771~ 2019-12-19 08:23:23 zhiiiyang   "@ja~ Twitt~
-## 3 345609~ 12075711~ 2019-12-19 07:59:20 zhiiiyang   "If ~ Twitt~
-## 4 345609~ 12075426~ 2019-12-19 06:06:21 zhiiiyang   @Tim~ Twitt~
-## 5 345609~ 12075395~ 2019-12-19 05:53:50 zhiiiyang   @gua~ Twitt~
-## 6 345609~ 12075328~ 2019-12-19 05:27:22 zhiiiyang   "@sk~ Twitt~
+## 1 345609~ 12092492~ 2019-12-23 23:07:36 zhiiiyang   @eri~ Twitt~
+## 2 345609~ 12092283~ 2019-12-23 21:44:37 zhiiiyang   @and~ Twitt~
+## 3 345609~ 12089873~ 2019-12-23 05:46:49 zhiiiyang   "Wan~ Twitt~
+## 4 345609~ 12086472~ 2019-12-22 07:15:44 zhiiiyang   Her ~ Twitt~
+## 5 345609~ 12080702~ 2019-12-20 17:02:56 zhiiiyang   @R_b~ Twitt~
+## 6 345609~ 12075771~ 2019-12-19 08:23:23 zhiiiyang   "@ja~ Twitt~
 ## # ... with 84 more variables: display_text_width <dbl>,
 ## #   reply_to_status_id <chr>, reply_to_user_id <chr>,
 ## #   reply_to_screen_name <chr>, is_quote <lgl>, is_retweet <lgl>,
@@ -128,7 +88,8 @@ head(tweet_list)
 
 ```r
 tweet_list <- tweet_list %>% 
-  mutate(week = week(created_at),
+  mutate(created_at = with_tz(created_at, tzone = "America/Los_Angeles"),
+         week = week(created_at),
          weekday = wday(created_at, label = TRUE),
          year = year(created_at), 
          month = month(created_at, label = TRUE),

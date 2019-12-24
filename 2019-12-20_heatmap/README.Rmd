@@ -9,8 +9,8 @@ output:
   
 ```{r}
 library(rtweet)
-library(lubridate)
-library(dplyr)
+suppressMessages(library(lubridate))
+suppressMessages(library(dplyr))
 source("https://raw.githubusercontent.com/iascchen/VisHealth/master/R/calendarHeat.R")
 ```
 
@@ -37,7 +37,8 @@ head(tweet_list)
 #### retweet lists
 ```{r message=FALSE, warning=FALSE}
 tweet_list <- tweet_list %>% 
-  mutate(week = week(created_at),
+  mutate(created_at = with_tz(created_at, tzone = "America/Los_Angeles"),
+         week = week(created_at),
          weekday = wday(created_at, label = TRUE),
          year = year(created_at), 
          month = month(created_at, label = TRUE),
