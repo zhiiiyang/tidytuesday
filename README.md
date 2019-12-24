@@ -5,6 +5,7 @@
 - [How to make a map using `geofacet`](https://github.com/zhiiiyang/tidytuesday#how-to-make-a-map-using-geofacet)
 - [How to make an animated picture using `gganimate`](https://github.com/zhiiiyang/tidytuesday/blob/master/README.md#how-to-make-an-animated-picture-using-gganimate)
 - [How to make a heatmap of your Twitter activity](https://github.com/zhiiiyang/tidytuesday/blob/master/README.md#how-to-make-a-heatmap-of-your-twitter-activity)
+- [How to make a radar/spider plot of your Twitter activity](https://github.com/zhiiiyang/tidytuesday/blob/master/README.md#how-to-make-a-heatmap-of-your-twitter-activity)
 
 ## How to make an interactive treemap using `treemap` and `d3treeR` 
 
@@ -51,4 +52,6 @@
 <p align="center">
   <img src="2019-12-20_heatmap/README_files/figure-html/unnamed-chunk-6-1.png" width="600"/>
 <p>
+
+# How to make a radar/spider plot of your Twitter activity
 
