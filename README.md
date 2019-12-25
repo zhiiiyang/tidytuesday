@@ -50,7 +50,7 @@
 
 **Code**: click [here](https://github.com/zhiiiyang/tidytuesday/tree/master/2019-10-08_lifting)
 
-# How to make a heatmap of your Twitter activity
+# How to make a heatmap of your Twitter activity using `ggplot2`
 
 <p align="center">
   <img src="2019-12-20_heatmap/README_files/figure-html/unnamed-chunk-6-1.png" width="600"/>
