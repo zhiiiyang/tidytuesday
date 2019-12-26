@@ -68,7 +68,7 @@ ggplot(dat3, aes(hour, wday)) +
   theme(axis.ticks = element_blank(),
         axis.title = element_blank(),
         axis.text.y = element_text(size = 10),
-        axis.text.x = element_text(size = 12),
+        axis.text.x = element_text(size = 10),
         legend.title = element_blank(),
         panel.grid = element_blank())
 ```
