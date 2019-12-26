@@ -71,7 +71,7 @@
 # How to make a heatmap using `ggplot2` and `reticulate`
 
 <p align="center">
-  <img src="2019-12-24_geom_tile/README_files/figure-html/unnamed-chunk-4-1.png" width="900"/>
+  <img src="2019-12-24_geom_tile/README_files/figure-html/unnamed-chunk-4-1.png" width="1000"/>
 <p>
 
 
