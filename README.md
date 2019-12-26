@@ -83,7 +83,7 @@
 # How to make a Sankey diagram and a Word Cloud using `networkD3` and `wordcloud2`
 
 <p align="center">
-  <img src="2019-12-26_sankey/README_files/figure-html/unnamed-chunk-6-1.png" width="800"/>
+  <img src="2019-12-26_sankey/sankey.png" width="800"/>
   <img src="2019-12-26_sankey/twitter.png" width="800"/>
 <p>
 
