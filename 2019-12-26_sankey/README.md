@@ -104,7 +104,7 @@ dat_sum$IDtarget=match(dat_sum$target, nodes$name)-1
 sankeyNetwork(Links = dat_sum, Nodes = nodes,
                       Source = "IDsource", Target = "IDtarget",
                       Value = "value", NodeID = "name", 
-                      sinksRight=FALSE, 
+                      sinksRight=FALSE, fontFamily = "sans-serif",
               nodeWidth=10, fontSize=18, nodePadding=15)
 ```
 ![](sankey.png)
