@@ -19,9 +19,9 @@ source("https://raw.githubusercontent.com/iascchen/VisHealth/master/R/calendarHe
 
 ```r
 token <- create_token(
-  app = "xxx",
-  consumer_key = "xxx",
-  consumer_secret = "xxx")
+  app = "rtweet_token_zy",
+  consumer_key = Sys.getenv("consumer_key"),
+  consumer_secret = Sys.getenv("consumer_secret"))
 ```
 
 
@@ -42,12 +42,12 @@ head(tweet_list)
 ## # A tibble: 6 x 90
 ##   user_id status_id created_at          screen_name text  source
 ##   <chr>   <chr>     <dttm>              <chr>       <chr> <chr> 
-## 1 345609~ 12092492~ 2019-12-23 23:07:36 zhiiiyang   @eri~ Twitt~
-## 2 345609~ 12092283~ 2019-12-23 21:44:37 zhiiiyang   @and~ Twitt~
-## 3 345609~ 12089873~ 2019-12-23 05:46:49 zhiiiyang   "Wan~ Twitt~
-## 4 345609~ 12086472~ 2019-12-22 07:15:44 zhiiiyang   Her ~ Twitt~
-## 5 345609~ 12080702~ 2019-12-20 17:02:56 zhiiiyang   @R_b~ Twitt~
-## 6 345609~ 12075771~ 2019-12-19 08:23:23 zhiiiyang   "@ja~ Twitt~
+## 1 345609~ 12095668~ 2019-12-24 20:09:43 zhiiiyang   "@Be~ Twitt~
+## 2 345609~ 12092492~ 2019-12-23 23:07:36 zhiiiyang   @eri~ Twitt~
+## 3 345609~ 12092283~ 2019-12-23 21:44:37 zhiiiyang   @and~ Twitt~
+## 4 345609~ 12089873~ 2019-12-23 05:46:49 zhiiiyang   "Wan~ Twitt~
+## 5 345609~ 12086472~ 2019-12-22 07:15:44 zhiiiyang   Her ~ Twitt~
+## 6 345609~ 12080702~ 2019-12-20 17:02:56 zhiiiyang   @R_b~ Twitt~
 ## # ... with 84 more variables: display_text_width <dbl>,
 ## #   reply_to_status_id <chr>, reply_to_user_id <chr>,
 ## #   reply_to_screen_name <chr>, is_quote <lgl>, is_retweet <lgl>,

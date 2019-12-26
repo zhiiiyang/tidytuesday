@@ -18,9 +18,9 @@ library(ggplot2)
 
 ```{r eval=FALSE}
 token <- create_token(
-  app = "xxx",
-  consumer_key = "xxx",
-  consumer_secret = "xxx")
+  app = "rtweet_token_zy",
+  consumer_key = Sys.getenv("consumer_key"),
+  consumer_secret = Sys.getenv("consumer_secret"))
 ```
 
 

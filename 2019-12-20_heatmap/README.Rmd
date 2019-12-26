@@ -17,9 +17,9 @@ source("https://raw.githubusercontent.com/iascchen/VisHealth/master/R/calendarHe
 
 ```{r eval=FALSE}
 token <- create_token(
-  app = "xxx",
-  consumer_key = "xxx",
-  consumer_secret = "xxx")
+  app = "rtweet_token_zy",
+  consumer_key = Sys.getenv("consumer_key"),
+  consumer_secret = Sys.getenv("consumer_secret"))
 ```
 
 
