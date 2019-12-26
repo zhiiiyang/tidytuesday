@@ -7,7 +7,7 @@
 - [How to make a heatmap of your Twitter activity using `ggplot2`](https://github.com/zhiiiyang/tidytuesday/blob/master/README.md#how-to-make-a-heatmap-of-your-twitter-activity-using-ggplot2)
 - [How to make a radar/spider plot of your tweet frequency using `ggplot2`](https://github.com/zhiiiyang/tidytuesday#how-to-make-a-radarspider-plot-of-your-tweet-frequency-using-ggplot2)
 - [How to make a heatmap using `ggplot2` and `reticulate`](https://github.com/zhiiiyang/tidytuesday#how-to-make-a-heatmap-using-ggplot2-and-reticulate)
-- [How to make a Sankey diagram and a Word Cloud using `networkD3` and `wordcloud2`]()
+- [How to make a Sankey diagram and a Word Cloud using `networkD3` and `wordcloud2`](https://github.com/zhiiiyang/tidytuesday#how-to-make-a-sankey-diagram-and-a-word-cloud-using-networkd3-and-wordcloud2)
 
 ## How to make an interactive treemap using `treemap` and `d3treeR` 
 
@@ -62,11 +62,11 @@
 # How to make a radar/spider plot of your tweet frequency using `ggplot2`
 
 <p align="center">
-  <img src="2019-12-24_radarplot/README_files/figure-html/unnamed-chunk-6-1.png" width="600"/>
+  <img src="2019-12-25_radarplot/README_files/figure-html/unnamed-chunk-6-1.png" width="600"/>
 <p>
 
 
-**Code**: click [here](https://github.com/zhiiiyang/tidytuesday/tree/master/2019-12-24_radarplot)
+**Code**: click [here](https://github.com/zhiiiyang/tidytuesday/tree/master/2019-12-25_radarplot)
 
 
 # How to make a heatmap using `ggplot2` and `reticulate`
