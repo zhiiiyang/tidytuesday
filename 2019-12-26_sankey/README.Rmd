@@ -26,7 +26,7 @@ dim(tweet_list)
 dim(fav_list)
 ```
 
-## clean hashtags
+## clean hashtags by removing the `NA`
 ```{r}
 tweet_hash <- unlist(tweet_list$hashtags)
 tweet_hash <- tweet_hash[!is.na(tweet_hash)]
@@ -37,8 +37,7 @@ length(tweet_hash)
 length(fav_hash)
 ```
 
-## not include hashtags less than 10 counts
-
+## exclude hashtags less than 10 counts
 ```{r}
 dat <- data.frame(source = c(rep("Tweets", length(tweet_hash)),
                              rep("Likes", length(fav_hash))),
@@ -60,16 +59,17 @@ dat_sum$IDtarget=match(dat_sum$target, nodes$name)-1
 ```
 
 
-## Make the Network
-```{r}
+## create the network
+```{r eval=FALSE}
 sankeyNetwork(Links = dat_sum, Nodes = nodes,
                       Source = "IDsource", Target = "IDtarget",
                       Value = "value", NodeID = "name", 
                       sinksRight=FALSE, 
               nodeWidth=10, fontSize=18, nodePadding=15)
 ```
+![](sankey.png)
 
-
+## create the word cloud
 ```{r eval = FALSE}
 figPath = system.file("examples/t.png",package = "wordcloud2")
 Freq <- dat %>% group_by(target) %>% 

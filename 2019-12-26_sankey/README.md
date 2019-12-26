@@ -53,7 +53,7 @@ dim(fav_list)
 ## [1] 1578   91
 ```
 
-## clean hashtags
+## clean hashtags by removing the `NA`
 
 ```r
 tweet_hash <- unlist(tweet_list$hashtags)
@@ -76,8 +76,7 @@ length(fav_hash)
 ## [1] 1226
 ```
 
-## not include hashtags less than 10 counts
-
+## exclude hashtags less than 10 counts
 
 ```r
 dat <- data.frame(source = c(rep("Tweets", length(tweet_hash)),
@@ -99,7 +98,7 @@ dat_sum$IDtarget=match(dat_sum$target, nodes$name)-1
 ```
 
 
-## Make the Network
+## create the network
 
 ```r
 sankeyNetwork(Links = dat_sum, Nodes = nodes,
@@ -108,15 +107,9 @@ sankeyNetwork(Links = dat_sum, Nodes = nodes,
                       sinksRight=FALSE, 
               nodeWidth=10, fontSize=18, nodePadding=15)
 ```
+![](sankey.png)
 
-```
-## Links is a tbl_df. Converting to a plain data frame.
-```
-
-<!--html_preserve--><div id="htmlwidget-d9a733fea98955ad4fcf" style="width:672px;height:480px;" class="sankeyNetwork html-widget"></div>
-<script type="application/json" data-for="htmlwidget-d9a733fea98955ad4fcf">{"x":{"links":{"source":[0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1],"target":[2,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,8,6,17,11,18],"value":[334,109,34,27,24,22,21,19,18,17,17,16,16,15,15,14,14,14,13,12,12]},"nodes":{"name":["Likes","Tweets","#rstats","#datascience","#rladies","#dataviz","#phdchat","#phdlife","#blogdown","#academictwitter","#academicchatter","#tidytuesday","#ggplot2","#shiny","#rmarkdown","#rstudioconf","#python","#epitwitter","#xaringan"],"group":["Likes","Tweets","#rstats","#datascience","#rladies","#dataviz","#phdchat","#phdlife","#blogdown","#academictwitter","#academicchatter","#tidytuesday","#ggplot2","#shiny","#rmarkdown","#rstudioconf","#python","#epitwitter","#xaringan"]},"options":{"NodeID":"name","NodeGroup":"name","LinkGroup":null,"colourScale":"d3.scaleOrdinal(d3.schemeCategory20);","fontSize":18,"fontFamily":null,"nodeWidth":10,"nodePadding":15,"units":"","margin":{"top":null,"right":null,"bottom":null,"left":null},"iterations":32,"sinksRight":false}},"evals":[],"jsHooks":[]}</script><!--/html_preserve-->
-
-
+## create the word cloud
 
 ```r
 figPath = system.file("examples/t.png",package = "wordcloud2")
