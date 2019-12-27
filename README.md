@@ -1,6 +1,6 @@
 <h1 style="font-weight:normal" align="center">
-  <a href="https://sourcerer.io">
-    <img src=https://zhiyang.netlify.com/img/zhi.png alt="Zhi" width=35>
+  <a href="https://zhiyang.netlify.com/">
+    <img src=https://zhiyang.netlify.com/img/zhi.png alt="Zhi" width=30>
   </a>
   &nbsp;Data Visualization Gallery&nbsp;
 </h1>
