@@ -1,4 +1,4 @@
-<h1 style="font-weight:normal">
+<h1 style="font-weight:normal" align="center">
   <a href="https://sourcerer.io">
     <img src=https://zhiyang.netlify.com/img/zhi.png alt="Zhi" width=35>
   </a>
@@ -7,7 +7,9 @@
 
 <div align="center">
 
-[Twitter :speech_balloon:][Twitter]&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[LinkedIn :necktie:	][LinkedIn]&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[GitHub :octocat:][GitHub]&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Website :link:][Website]
+[Twitter :speech_balloon:][Twitter]&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[LinkedIn :necktie:][LinkedIn]&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[GitHub :octocat:][GitHub]&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Website :link:][Website]
+
+</div>
 
 <!--
 Quick Link 
@@ -18,7 +20,6 @@ Quick Link
 [GitHub]:https://github.com/zhiiiyang
 [Website]:https://zhiyang.netlify.com/
 
-<div>
 
 <details>
   <summary><strong>Table of Contents</strong> (click to expand)</summary>
