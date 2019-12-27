@@ -1,5 +1,11 @@
-# My #dataviz projects [website](https://zhiyang.netlify.com/project/viz/)
+# Zhi Yang's #Dataviz Projects 📊 
 
+📊 [Go to my website for more posts and tweets](https://zhiyang.netlify.com/project/viz/)
+
+<details>
+  <summary><strong>Table of Contents</strong> (click to expand)</summary>
+
+<!-- toc -->
 - [How to make an interactive treemap using `treemap` and `d3treeR`](https://github.com/zhiiiyang/tidytuesday#how-to-make-an-interactive-treemap-using-treemap-and-d3treer)
 - [How to make an geofacet waffle chat using `geofacet`](https://github.com/zhiiiyang/tidytuesday#how-to-make-an-geofacet-waffle-chat-using-geofacet)
 - [How to make a map using `geofacet`](https://github.com/zhiiiyang/tidytuesday#how-to-make-a-map-using-geofacet)
@@ -8,6 +14,9 @@
 - [How to make a radar/spider plot of your tweet frequency using `ggplot2`](https://github.com/zhiiiyang/tidytuesday#how-to-make-a-radarspider-plot-of-your-tweet-frequency-using-ggplot2)
 - [How to make a heatmap using `ggplot2` and `reticulate`](https://github.com/zhiiiyang/tidytuesday#how-to-make-a-heatmap-using-ggplot2-and-reticulate)
 - [How to make a Sankey diagram and a Word Cloud using `networkD3` and `wordcloud2`](https://github.com/zhiiiyang/tidytuesday#how-to-make-a-sankey-diagram-and-a-word-cloud-using-networkd3-and-wordcloud2)
+<!-- tocstop -->
+
+</details>
 
 ## How to make an interactive treemap using `treemap` and `d3treeR` 
 
@@ -37,21 +46,21 @@
 
 **Note**: go to [andriy-gazin/geowaffle](https://github.com/andriy-gazin/geowaffle) to see the original post
 
-# How to make a map using `geofacet` 
+## How to make a map using `geofacet` 
 <p align="center">
   <img src="https://zhiyang.netlify.com/post/gaokao/featured.png" width=33%>
   <img src="https://zhiyang.netlify.com/post/gaokao/p2.png" width=33%>
   <img src="https://zhiyang.netlify.com/post/gaokao/p3.png" width=33%>
 <p>
 
-# How to make an animated picture using `gganimate`
+## How to make an animated picture using `gganimate`
 <p align="center">
   <img src="2019-10-08_lifting/weights.gif" width="600"/>
 <p>
 
 **Code**: click [here](https://github.com/zhiiiyang/tidytuesday/tree/master/2019-10-08_lifting)
 
-# How to make a heatmap of your Twitter activity using `ggplot2`
+## How to make a heatmap of your Twitter activity using `ggplot2`
 
 <p align="center">
   <img src="2019-12-20_heatmap/README_files/figure-html/unnamed-chunk-6-1.png" width="600"/>
@@ -59,7 +68,7 @@
 
 **Code**: click [here](https://github.com/zhiiiyang/tidytuesday/tree/master/2019-12-20_heatmap)
 
-# How to make a radar/spider plot of your tweet frequency using `ggplot2`
+## How to make a radar/spider plot of your tweet frequency using `ggplot2`
 
 <p align="center">
   <img src="2019-12-25_radarplot/README_files/figure-html/unnamed-chunk-6-1.png" width="600"/>
@@ -69,7 +78,7 @@
 **Code**: click [here](https://github.com/zhiiiyang/tidytuesday/tree/master/2019-12-25_radarplot)
 
 
-# How to make a heatmap using `ggplot2` and `reticulate`
+## How to make a heatmap using `ggplot2` and `reticulate`
 
 <p align="center">
   <img src="2019-12-25_geom_tile/README_files/figure-html/unnamed-chunk-4-1.png" width="1000"/>
@@ -80,7 +89,7 @@
 **Note**: this work was inspired by the [post](https://www.reddit.com/r/dataisbeautiful/comments/eaiywv/first_post_here_i_wrote_a_python_script_that/) on Reddit. 
 
 
-# How to make a Sankey diagram and a Word Cloud using `networkD3` and `wordcloud2`
+## How to make a Sankey diagram and a Word Cloud using `networkD3` and `wordcloud2`
 
 <p align="center">
   <img src="2019-12-26_sankey/sankey.png" width=48%/>
