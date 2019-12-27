@@ -7,7 +7,7 @@
 
 <div align="center">
 
-[Twitter :speech_balloon:][Twitter]&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[LinkedIn :necktie:][LinkedIn]&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[GitHub :octocat:][GitHub]&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Website :link:][Website]
+[Twitter][Twitter]:speech_balloon: &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[LinkedIn :necktie:][LinkedIn]&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[GitHub :octocat:][GitHub]&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Website :link:][Website]
 
 </div>
 
