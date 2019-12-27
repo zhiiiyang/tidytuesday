@@ -25,9 +25,9 @@
 ## How to make an geofacet waffle chat using `geofacet`  
 
 <p align="center">
-  <img src="2019-09-24_school-diversity/Diverse2016-2017.png" width="600">
-  <img src="2019-09-24_school-diversity/Undiverse2016-2017.png" width="600"/>
-  <img src="2019-09-24_school-diversity/Extremely-undiverse2016-2017.png" width="600"/>
+  <img src="2019-09-24_school-diversity/Diverse2016-2017.png" width=33%>
+  <img src="2019-09-24_school-diversity/Undiverse2016-2017.png" width=33%/>
+  <img src="2019-09-24_school-diversity/Extremely-undiverse2016-2017.png" width=33%/>
 <p>
 
 
@@ -39,9 +39,9 @@
 
 # How to make a map using `geofacet` 
 <p align="center">
-  <img src="https://zhiyang.netlify.com/post/gaokao/featured.png" width="600"/>
-  <img src="https://zhiyang.netlify.com/post/gaokao/p2.png" width="600"/>
-  <img src="https://zhiyang.netlify.com/post/gaokao/p3.png" width="600"/>
+  <img src="https://zhiyang.netlify.com/post/gaokao/featured.png" width=33%>
+  <img src="https://zhiyang.netlify.com/post/gaokao/p2.png" width=33%>
+  <img src="https://zhiyang.netlify.com/post/gaokao/p3.png" width=33%>
 <p>
 
 # How to make an animated picture using `gganimate`
@@ -83,8 +83,8 @@
 # How to make a Sankey diagram and a Word Cloud using `networkD3` and `wordcloud2`
 
 <p align="center">
-  <img src="2019-12-26_sankey/sankey.png" width="800"/>
-  <img src="2019-12-26_sankey/twitter.png" width="800"/>
+  <img src="2019-12-26_sankey/sankey.png" width=48%/>
+  <img src="2019-12-26_sankey/twitter.png" width=48%/>
 <p>
 
 **Code**: click [here](https://github.com/zhiiiyang/tidytuesday/tree/master/2019-12-26_sankey) 
