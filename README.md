@@ -1,6 +1,6 @@
 <h1 style="font-weight:normal" align="center">
   <a href="https://zhiyang.netlify.com/">
-    <img src=https://zhiyang.netlify.com/img/zhi.png alt="Zhi" width=30>
+    <img src=https://zhiyang.netlify.com/img/zhi.png alt="Zhi" width=27>
   </a>
   &nbsp;Data Visualization Gallery&nbsp;
 </h1>
