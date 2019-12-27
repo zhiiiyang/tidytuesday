@@ -1,6 +1,11 @@
-# Zhi Yang's #Dataviz Projects 📊 
+<h1 style="font-weight:normal">
+  <a href="https://sourcerer.io">
+    <img src=https://zhiyang.netlify.com/img/zhi.png alt="Zhi" width=35>
+  </a>
+  &nbsp;#Dataviz Projects&nbsp;
+</h1>
 
-📊 [Go to my website for more posts and tweets](https://zhiyang.netlify.com/project/viz/)
+  Go to my [website]((https://zhiyang.netlify.com/project/viz/)) for more posts and tweets
 
 <details>
   <summary><strong>Table of Contents</strong> (click to expand)</summary>
