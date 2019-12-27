@@ -5,7 +5,7 @@
   &nbsp;#Dataviz Projects&nbsp;
 </h1>
 
-  Go to my [website]((https://zhiyang.netlify.com/project/viz/)) for more posts and tweets
+  Go to my [website](https://zhiyang.netlify.com/project/viz/) for more posts and tweets
 
 <details>
   <summary><strong>Table of Contents</strong> (click to expand)</summary>
