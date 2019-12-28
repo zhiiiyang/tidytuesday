@@ -67,9 +67,9 @@ Quick Link
 
 ## How to make a map using `geofacet` 
 <p align="center">
-  <img src="https://zhiyang.netlify.com/post/gaokao/featured.png" width=33%>
-  <img src="https://zhiyang.netlify.com/post/gaokao/p2.png" width=33%>
-  <img src="https://zhiyang.netlify.com/post/gaokao/p3.png" width=33%>
+  <img src="https://zhiyang.netlify.com/post/gaokao/featured.png" width=48%>
+  <img src="https://zhiyang.netlify.com/post/gaokao/p2.png" width=48%>
+  <img src="https://zhiyang.netlify.com/post/gaokao/p3.png" width=40%>
 <p>
 
 ## How to make an animated picture using `gganimate`
