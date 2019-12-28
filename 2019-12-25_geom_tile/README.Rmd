@@ -8,7 +8,6 @@ output:
 ---
   
 ```{r}
-library(rtweet)
 suppressMessages(library(ggplot2))
 suppressMessages(library(lubridate))
 suppressMessages(library(dplyr))

@@ -8,7 +8,6 @@ output:
 ---
   
 ```{r}
-library(rtweet)
 library(lubridate)
 suppressMessages(library(dplyr))
 library(networkD3)

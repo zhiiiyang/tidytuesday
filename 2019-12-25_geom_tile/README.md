@@ -9,15 +9,7 @@ output:
   
 
 ```r
-library(rtweet)
 suppressMessages(library(ggplot2))
-```
-
-```
-## Warning: package 'ggplot2' was built under R version 3.6.2
-```
-
-```r
 suppressMessages(library(lubridate))
 suppressMessages(library(dplyr))
 library(reticulate)
