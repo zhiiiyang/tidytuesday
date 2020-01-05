@@ -26,7 +26,7 @@ Quick Link
 
 <!-- toc -->
 - [How to make an interactive treemap using `treemap` and `d3treeR`](https://github.com/zhiiiyang/tidytuesday#how-to-make-an-interactive-treemap-using-treemap-and-d3treer)
-- [How to make an geofacet waffle chat using `geofacet`](https://github.com/zhiiiyang/tidytuesday#how-to-make-an-geofacet-waffle-chat-using-geofacet)
+- [How to make an geofacet waffle chart using `geofacet`](https://github.com/zhiiiyang/tidytuesday#how-to-make-an-geofacet-waffle-chart-using-geofacet)
 - [How to make a map using `geofacet`](https://github.com/zhiiiyang/tidytuesday#how-to-make-a-map-using-geofacet)
 - [How to make an animated picture using `gganimate`](https://github.com/zhiiiyang/tidytuesday/blob/master/README.md#how-to-make-an-animated-picture-using-gganimate)
 - [How to make a heatmap of your Twitter activity using `ggplot2`](https://github.com/zhiiiyang/tidytuesday/blob/master/README.md#how-to-make-a-heatmap-of-your-twitter-activity-using-ggplot2)
@@ -50,7 +50,7 @@ Quick Link
 **Note**: to interact with the treemaps, please go to the [post](https://zhiyang.netlify.com/post/treemap/)
 
 
-## How to make an geofacet waffle chat using `geofacet`  
+## How to make an geofacet waffle chart using `geofacet`  
 
 <p align="center">
   <img src="2019-09-24_school-diversity/Diverse2016-2017.png" width=33%>
