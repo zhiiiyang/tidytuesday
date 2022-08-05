@@ -47,8 +47,8 @@ tweet_list <- tweet_list %>%
   mutate(monthweek = week - min(week) + 1) %>% 
   group_by(date) %>% 
   mutate(activity = n(),
-         original = if_else(is.na(reply_to_status_id)==TRUE &
-                              is_retweet==FALSE, TRUE, FALSE),
+         original = if_else(is.na(in_reply_to_status_id)==TRUE &
+                              retweeted==FALSE, TRUE, FALSE),
          likes = sum(favorite_count[original==TRUE]),
          retweets = sum(retweet_count[original==TRUE]))
 ```
