@@ -54,7 +54,7 @@ tweet_list <- tweet_list %>%
 ```
 
 
-```{r message=FALSE, warning=FALSE}
+```{r message=FALSE, warning=FALSE, fig.height=6.5}
 calendarHeat(tweet_list$date, tweet_list$activity, 
              ncolors = 99, color = "g2r", varname="My Tweets & Replies Activitiy")
 ```
