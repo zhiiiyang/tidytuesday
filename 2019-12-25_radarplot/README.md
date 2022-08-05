@@ -16,10 +16,6 @@ library(tidyr)
 library(ggplot2)
 ```
 
-```
-## Warning: package 'ggplot2' was built under R version 3.6.2
-```
-
 
 
 ```r
@@ -44,49 +40,22 @@ head(tweet_list)
 ```
 
 ```
-## # A tibble: 6 x 90
-##   user_id status_id created_at          screen_name text  source
-##   <chr>   <chr>     <dttm>              <chr>       <chr> <chr> 
-## 1 345609~ 12095668~ 2019-12-24 20:09:43 zhiiiyang   "@Be~ Twitt~
-## 2 345609~ 12092492~ 2019-12-23 23:07:36 zhiiiyang   @eri~ Twitt~
-## 3 345609~ 12092283~ 2019-12-23 21:44:37 zhiiiyang   @and~ Twitt~
-## 4 345609~ 12089873~ 2019-12-23 05:46:49 zhiiiyang   "Wan~ Twitt~
-## 5 345609~ 12086472~ 2019-12-22 07:15:44 zhiiiyang   Her ~ Twitt~
-## 6 345609~ 12080702~ 2019-12-20 17:02:56 zhiiiyang   @R_b~ Twitt~
-## # ... with 84 more variables: display_text_width <dbl>,
-## #   reply_to_status_id <chr>, reply_to_user_id <chr>,
-## #   reply_to_screen_name <chr>, is_quote <lgl>, is_retweet <lgl>,
-## #   favorite_count <int>, retweet_count <int>, quote_count <int>,
-## #   reply_count <int>, hashtags <list>, symbols <list>, urls_url <list>,
-## #   urls_t.co <list>, urls_expanded_url <list>, media_url <list>,
-## #   media_t.co <list>, media_expanded_url <list>, media_type <list>,
-## #   ext_media_url <list>, ext_media_t.co <list>,
-## #   ext_media_expanded_url <list>, ext_media_type <chr>,
-## #   mentions_user_id <list>, mentions_screen_name <list>, lang <chr>,
-## #   quoted_status_id <chr>, quoted_text <chr>, quoted_created_at <dttm>,
-## #   quoted_source <chr>, quoted_favorite_count <int>,
-## #   quoted_retweet_count <int>, quoted_user_id <chr>,
-## #   quoted_screen_name <chr>, quoted_name <chr>,
-## #   quoted_followers_count <int>, quoted_friends_count <int>,
-## #   quoted_statuses_count <int>, quoted_location <chr>,
-## #   quoted_description <chr>, quoted_verified <lgl>,
-## #   retweet_status_id <chr>, retweet_text <chr>,
-## #   retweet_created_at <dttm>, retweet_source <chr>,
-## #   retweet_favorite_count <int>, retweet_retweet_count <int>,
-## #   retweet_user_id <chr>, retweet_screen_name <chr>, retweet_name <chr>,
-## #   retweet_followers_count <int>, retweet_friends_count <int>,
-## #   retweet_statuses_count <int>, retweet_location <chr>,
-## #   retweet_description <chr>, retweet_verified <lgl>, place_url <chr>,
-## #   place_name <chr>, place_full_name <chr>, place_type <chr>,
-## #   country <chr>, country_code <chr>, geo_coords <list>,
-## #   coords_coords <list>, bbox_coords <list>, status_url <chr>,
-## #   name <chr>, location <chr>, description <chr>, url <chr>,
-## #   protected <lgl>, followers_count <int>, friends_count <int>,
-## #   listed_count <int>, statuses_count <int>, favourites_count <int>,
-## #   account_created_at <dttm>, verified <lgl>, profile_url <chr>,
-## #   profile_expanded_url <chr>, account_lang <lgl>,
-## #   profile_banner_url <chr>, profile_background_url <chr>,
-## #   profile_image_url <chr>
+## # A tibble: 6 × 43
+##   created_at               id id_str        full_text truncated display_text_ra…
+##   <dttm>                <dbl> <chr>         <chr>     <lgl>                <dbl>
+## 1 2022-08-04 23:24:18 1.56e18 155543953476… @JeevunS… FALSE                  256
+## 2 2022-08-04 23:19:06 1.56e18 155543822856… By the a… FALSE                  129
+## 3 2022-08-04 23:12:10 1.56e18 155543648085… @Brett_F… FALSE                   74
+## 4 2022-08-04 14:55:54 1.56e18 155531159167… @SagerTo… FALSE                   67
+## 5 2022-08-04 08:29:32 1.56e18 155521435849… @imbarba… FALSE                   48
+## 6 2022-08-04 07:55:37 1.56e18 155520582507… @cantsto… FALSE                   43
+## # … with 37 more variables: entities <list>, source <chr>,
+## #   in_reply_to_status_id <dbl>, in_reply_to_status_id_str <chr>,
+## #   in_reply_to_user_id <dbl>, in_reply_to_user_id_str <chr>,
+## #   in_reply_to_screen_name <chr>, geo <list>, coordinates <list>,
+## #   place <list>, contributors <lgl>, is_quote_status <lgl>,
+## #   retweet_count <int>, favorite_count <int>, favorited <lgl>,
+## #   retweeted <lgl>, lang <chr>, possibly_sensitive <lgl>, …
 ```
 
 ### Tidy retweet lists
