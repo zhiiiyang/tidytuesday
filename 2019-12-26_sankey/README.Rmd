@@ -12,8 +12,8 @@ library(lubridate)
 suppressMessages(library(dplyr))
 library(networkD3)
 library(wordcloud2)
-
-token <- get_tokens()
+library(rtweet)
+#token <- get_tokens()
 ```
 
 ## Get my timeline
@@ -27,9 +27,9 @@ dim(fav_list)
 
 ## clean hashtags by removing the `NA`
 ```{r}
-tweet_hash <- unlist(tweet_list$hashtags)
+tweet_hash <- unlist(sapply(tweet_list$entities, function(x) x$hashtags$text))
 tweet_hash <- tweet_hash[!is.na(tweet_hash)]
-fav_hash <- unlist(fav_list$hashtags)
+fav_hash <- unlist(sapply(fav_list$entities, function(x) x$hashtags$text))
 fav_hash <- fav_hash[!is.na(fav_hash)]
 
 length(tweet_hash)
@@ -45,7 +45,7 @@ dat <- data.frame(source = c(rep("Tweets", length(tweet_hash)),
 
 dat_sum <- dat %>% group_by(source, target) %>% 
            summarise(value = n()) %>%
-           filter(value > 10) %>%
+           filter(value > 30) %>%
            arrange(desc(value))
 
 
